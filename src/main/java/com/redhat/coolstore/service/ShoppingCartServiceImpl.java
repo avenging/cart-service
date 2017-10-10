@@ -50,15 +50,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 
 	@Override
 	public ShoppingCart getShoppingCart(String cartId) {
-		if (!cartDB.containsKey(cartId)) {
-			ShoppingCart c = new ShoppingCart();
-			cartDB.put(cartId, c);
-			return c;
-		{ else if (cartId.equalsIgnoreCase(new String("FOO")) {
-                        return "BAR";
-		} else {
-			return cartDB.get(cartId);
-		}
+                return "BAR";
 	}
 
 	@Override
