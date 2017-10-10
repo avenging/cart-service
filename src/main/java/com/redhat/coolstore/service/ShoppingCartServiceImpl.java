@@ -54,6 +54,8 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 			ShoppingCart c = new ShoppingCart();
 			cartDB.put(cartId, c);
 			return c;
+		{ else if (cartId.equalsIgnoreCase(new String("FOO")) {
+                        return "BAR";
 		} else {
 			return cartDB.get(cartId);
 		}
