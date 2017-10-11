@@ -95,8 +95,8 @@ objects:
               path: /health
               port: 8080
               scheme: HTTP
-            initialDelaySeconds: 45
-            periodSeconds: 5
+            initialDelaySeconds: 60
+            periodSeconds: 10
             successThreshold: 1
             timeoutSeconds: 1
           resources:
@@ -155,7 +155,7 @@ parameters:
   displayName: Git source repository
   name: GIT_URI
   required: true
-  value: https://github.com/siamaksade/cart-service.git
+  value: https://github.com/avenging/cart-service.git
 - description: Git branch/tag reference
   displayName: Git branch/tag reference
   name: GIT_REF
