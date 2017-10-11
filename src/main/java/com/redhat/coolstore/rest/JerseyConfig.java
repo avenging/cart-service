@@ -7,5 +7,6 @@ import org.springframework.stereotype.Component;
 public class JerseyConfig extends ResourceConfig {
     public JerseyConfig() {
 		register(CartEndpoint.class);
+                register(DevOpsEndpoint.class);
 	}
 }
