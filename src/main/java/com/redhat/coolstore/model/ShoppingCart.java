@@ -102,7 +102,7 @@ public class ShoppingCart implements Serializable {
 
 	@Override
 	public String toString() {
-		return "ShoppingCart [cartItemTotal=" + cartItemTotal
+		return "ShoppingCart [ZZcartItemTotal=" + cartItemTotal
 				+ ", cartItemPromoSavings=" + cartItemPromoSavings
 				+ ", shippingTotal=" + shippingTotal
 				+ ", shippingPromoSavings=" + shippingPromoSavings
