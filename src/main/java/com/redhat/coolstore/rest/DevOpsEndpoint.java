@@ -14,7 +14,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 @Path("/")
 @Component
-public class RestResource {
+public class DevOpsEndpoint {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
